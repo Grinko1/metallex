@@ -32,16 +32,16 @@ const Footer = () => {
         </div>
 
         <div className={style.contact}>
-          <Link to="/">
+          <a href="https://api.whatsapp.com/send?phone=9140464566" target='_blank'>
             <p className={cn(style.icon, style.wa)}>
               <BsWhatsapp />
             </p>
-          </Link>
-          <Link to='/'>
+          </a>
+          <a href="https://vk.com/id103625609" target='_blank'>
           <p className={cn(style.icon, style.vk)}>
             <SlSocialVkontakte />
           </p>
-          </Link>
+          </a>
           </div>
       </div>
       <div className={style.right}>

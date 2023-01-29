@@ -22,14 +22,14 @@ const MobileMenu = ({ active, setActiveMenu }) => {
          
 
       
-          
+       
               <li className={style.sosial}>
-              <Link to="/" onClick={() => setActiveMenu(false)}>
+              <a href="https://api.whatsapp.com/send?phone=9140464566" target='_blank' onClick={() => setActiveMenu(false)}>
                 <BsWhatsapp />
-                </Link>
-                <Link to="/" onClick={() => setActiveMenu(false)}>
+                </a>
+                <a href="https://vk.com/id103625609" target='_blank'onClick={() => setActiveMenu(false)}>
                 <SlSocialVkontakte />
-                </Link>
+                </a>
               </li>
             
           

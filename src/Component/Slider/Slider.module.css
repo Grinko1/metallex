@@ -13,7 +13,7 @@
   width: 100vw;
   -webkit-backdrop-filter: blur(2px);
 
-
+  /* https://metallex.vercel.app/ */
 }
 .bg {
   object-fit: cover;

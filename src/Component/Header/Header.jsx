@@ -33,14 +33,17 @@ const Header = () => {
         </div>
 
         <div className={style.sosial}>
-          <Link to="/">
+         <a href="https://api.whatsapp.com/send?phone=9140464566" target='_blank'>
             <p className={style.icon}>
               <BsWhatsapp />
             </p>
-          </Link>
+          </a>
+         
+          <a href="https://vk.com/id103625609" target='_blank'>
           <p className={style.icon}>
             <SlSocialVkontakte />
           </p>
+          </a>
         </div>
       </div>
       <div className={style.burger}>
