@@ -1,0 +1,129 @@
+.menuMobile {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: -5px;
+  right: 0;
+  overflow: hidden;
+  scroll-behavior: auto;
+  transform: translateX(120%);
+  transition: all ease-in-out 0.2s;
+  z-index: 9999999;
+}
+
+.blur {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.493);
+  right: 30%;
+  position: absolute;
+}
+.menu_content {
+  width: 30%;
+  height: 100%;
+  background: black;
+  margin-left: 70%;
+  transition: all ease-in-out 0.2s;
+  color: white;
+}
+.btn_close {
+  padding-top: 50px;
+  position: relative;
+  left: 80%;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+}
+.btn_close img {
+  width: 46px;
+}
+.header {
+  font-size: 45px;
+  letter-spacing: 1px;
+  color: orange;
+  text-align: center;
+}
+.menu_items {
+  display: flex;
+  /* align-items: flex-start; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px auto;
+  font-size: 20px;
+  gap: 25px;
+}
+.menu_item p,
+.icon {
+  display: block;
+}
+.icon {
+  margin-right: 20px;
+}
+.menu_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 18px;
+}
+.sosial {
+  width: 50%;
+  margin: auto;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu_subitems {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px auto;
+  font-size: 20px;
+  gap: 25px;
+}
+.menuMobile.active {
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 600px) {
+  .menuMobile {
+    scroll-behavior: none;
+    height: 110% !important;
+  }
+
+  .menu_item {
+    margin-top: 20px !important;
+  }
+
+  .blur {
+    width: 0 !important;
+    height: 0;
+  }
+  .menu_header .btn_close {
+    width: 350px !important;
+  }
+  .menu_content {
+    width: 100% !important;
+    margin-left: 0 !important;
+    height: 110% !important;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .menuMobile {
+    transform: translateX(140%);
+  }
+  .blur {
+    right: 40%;
+  }
+  .menu_content {
+    width: 40%;
+    margin-left: 60%;
+  }
+}

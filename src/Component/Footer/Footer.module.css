@@ -1,0 +1,89 @@
+.footer{
+    width: 100vw;
+    height: 150px;
+    border-top: 5px solid rgb(250, 159, 74);
+    color: white;
+   
+}
+.container{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.footerHeader{
+ flex: 1;
+}
+.left{
+    flex: 2;
+display: flex;
+width: 30%;
+justify-content: space-around;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.contactItem{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.phone{
+    color: grey;
+}
+.map{
+    color: rgb(231, 230, 216);
+}
+.wa{
+    color: green;
+}
+.vk{
+    color: rgb(39, 111, 218);
+}
+.right{
+    flex: 2;
+}
+.menuLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuLinks li{
+    display: block;
+}
+
+@media(max-width: 850px){
+    .container{
+        width: 100%;
+    }
+}
+@media(max-width: 690px){
+    .menuLinks{
+        flex-direction: column;
+    }
+    .footer{
+        margin-top: 10%;
+    }
+    .footerHeader{
+        margin-left: 10px;
+    }
+    .right{
+        flex: 1;
+    }
+}
+@media(max-width: 500px){
+    .footerHeader{
+       width: auto;
+       font-size: 20px;
+       }
+    .right{
+        display: none;
+    }
+}

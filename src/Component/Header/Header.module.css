@@ -1,0 +1,100 @@
+.header{
+    width: 100vw;
+    height: 150px;
+    background: #1f1e1e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.logoBlock{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 20px;
+
+}
+.logo{
+    font-weight: 800;
+
+    /* background: url(https://phonoteka.org/uploads/posts/2021-05/1620664816_15-phonoteka_org-p-svarka-fon-18.jpg); */
+    /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqr-CWt8Bh5GsXX_loLUpmU34cKMyxtTZHKs5m0tQo2GDLLcN7Nh5V7byiCgkVsCiJSpY&usqp=CAU); */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* color: transparent; */
+    color: white;
+    font-size: 90px;
+    text-align: center;
+}
+.contacts{ 
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+.contact{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.contactItem{
+    display: flex;
+    align-items: center;
+}
+.sosial{
+ width: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ gap:10px;
+}
+.icon{
+    width: 30px;
+    font-size: 20px;
+}
+.burger{
+    display: none;
+    width: 50px;
+    position: relative;
+    top: 35%;
+    right: 10px;
+  }
+  .burger p{
+    text-align: center;
+    font-size: 40px;
+    color: gray;
+    cursor: pointer;
+  }
+@media (max-width: 850px) {
+    .burger{
+        display: block;
+        width: 50px;
+        position: relative;
+        top: 35%;
+        right: 10px;
+      }
+      .burger p{
+        text-align: center;
+        font-size: 40px;
+        color: gray;
+        cursor: pointer;
+      }
+    .logo{
+        font-weight: 800;
+        font-size: 60px;
+    }
+    .contact{
+        display: none;
+    }
+    .sosial{
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+    .logo{
+        font-weight: 800;
+        font-size: 40px;
+    }
+
+}
