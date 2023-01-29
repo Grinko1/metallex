@@ -9,7 +9,7 @@ const Main = () => {
     <>
       <Nav />
       <div className={style.banner}>
-        <img src="/img/banner.jpeg" alt="" />
+        {/* <img src="/img/banner.jpeg" alt="" /> */}
         <div className={style.headBlock}>
           <h1 className={style.mainHeader}>
             СВАРОЧНЫЕ РАБОТЫ <br /> С ВЫЕЗДОМ НА ОБЪЕКТ

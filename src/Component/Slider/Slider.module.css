@@ -3,6 +3,18 @@
   height: 650px;
   position: relative;
 }
+.sliderSection::before{
+  content: '';
+  background-image: url(../../../public/img/banner.jpeg) ;
+  filter: blur(10px);
+  position: absolute;
+  top: 0; left: 0;
+  height: 650px;
+  width: 100vw;
+  -webkit-backdrop-filter: blur(2px);
+
+
+}
 .bg {
   object-fit: cover;
   position: absolute;
@@ -116,6 +128,9 @@
   .container {
     margin: 50px 10px 0;
     height: 350px;
+  }
+  .sliderSection::before{
+    height: 90%;
   }
   .bg {
     height: 90%;

@@ -1,8 +1,20 @@
 .banner{
     height: 80vh;
     position: relative;
-    
 }
+.banner::before{
+    content: '';
+    background-image: url(../../../public/img/banner.jpeg) ;
+    filter: blur(2px);
+    position: absolute;
+    top: 0; left: 0;
+    height: 80vh;
+    width: 100vw;
+    -webkit-backdrop-filter: blur(2px);
+
+
+}
+
 /* .banner img::-webkit-scrollbar{width: 3px;height: 5px; }
 .banner img::-webkit-scrollbar-track-piece{background-color: orange;}
 .banner img::-webkit-scrollbar-thumb:vertical{height: 5px;background-color: white; border-radius: 4px;} */
@@ -30,6 +42,9 @@
     .banner img{
         height: 100vh;
     }
+    .banner::before{
+        height: 100vh;
+    }
 }
 @media (max-width:900px){
     .banner{
@@ -38,6 +53,9 @@
     }
     .banner img{
         height: 100%;
+    }
+    .banner::before{
+        height: 100vh;
     }
 }
 @media (max-width:620px){

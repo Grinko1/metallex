@@ -28,7 +28,7 @@ const Slider = () => {
   };
   return (
       <div className={style.sliderSection}>
-          <img className={style.bg} src="/img/banner.jpeg" alt=""/>
+          {/* <img className={style.bg} src="/img/banner.jpeg" alt=""/> */}
     <div className={style.slider}>
       <div className={style.container}>
         {slides.map((item, index) => {
