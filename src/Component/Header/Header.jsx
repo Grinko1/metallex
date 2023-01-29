@@ -24,12 +24,14 @@ const Header = () => {
             Краснодарский край,
             <br /> республика Адыгея
           </p>
+          <a href="tel:+79140464566">
           <p className={style.contactItem}>
             <span className={style.icon}>
               <BsPhone />
             </span>
             +7(999) 999-99-99
           </p>
+          </a>
         </div>
 
         <div className={style.sosial}>

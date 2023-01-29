@@ -36,35 +36,35 @@ const MobileMenu = ({ active, setActiveMenu }) => {
           </ul>
           <ul className={cn( style.menu_subitems)}>
             <li className={style.menu_item}>
-              <Link to="/contacts" onClick={() => setActiveMenu(false)}>
+              <Link to="/" onClick={() => setActiveMenu(false)}>
                 Главная
               </Link>
             </li>
             <li className={style.menu_item}>
-              <Link to="/discounts" onClick={() => setActiveMenu(false)}>
+              <Link to="/" onClick={() => setActiveMenu(false)}>
                 Каталог услуг
               </Link>
             </li>
             <li className={style.menu_item}>
-              <Link to="/exchange" onClick={() => setActiveMenu(false)}>
+              <Link to="/" onClick={() => setActiveMenu(false)}>
                 Прайс
               </Link>
             </li>
             <li className={style.menu_item}>
-              <Link to="/delivery" onClick={() => setActiveMenu(false)}>
+              <Link to="/" onClick={() => setActiveMenu(false)}>
                 Оплата
               </Link>
             </li>
           </ul>
           <ul className={style.menu_items}>
-          <Link to="/" onClick={() => setActiveMenu(false)}>
+          <a href="tel:+79140464566" onClick={() => setActiveMenu(false)}>
               <li className={style.menu_item}>
                 <span className={style.icon}>
                   <BsPhone />
                 </span>{' '}
                 +7(999) 999-99-99
               </li>
-            </Link>
+            </a>
             <Link to="/" onClick={() => setActiveMenu(false)}>
               <li className={style.menu_item}>
                 <span className={style.icon}>
