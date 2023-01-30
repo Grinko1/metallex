@@ -1,0 +1,97 @@
+.payment{
+    min-height: 60vh;
+    color: white;
+    margin: 50px;
+}
+.header{
+    text-align: center;
+    color: orange;
+    font-size: 45px;
+}
+.subHeader{
+    text-align: center;
+    margin: 50px 0;
+}
+.info{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.item{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.item p {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.tel{
+    color: rgb(0 134 255);
+}
+.tel p {
+    color: white;
+}
+.icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.wa{
+    color: green;
+}
+.vk{
+    color: rgb(39, 111, 218);
+}
+.formBlock{
+
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.form label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    padding: 10px;
+    border-radius:5px;
+    border: none;
+    width: 250px;
+}
+
+.input:invalid[focused="true"] {
+  border: 2px solid rgb(207, 35, 35); 
+  }
+
+
+.form  button{
+    padding: 10px;
+    border-radius:5px;
+    border: none;
+    width: 250px;
+    background-color: orange;
+    font-size: 18px;
+    cursor: pointer;
+}
+@media (max-width:930px){
+    .payment{
+
+        margin: 50px 30px;
+    }
+    .info{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .item{
+justify-content: space-between;
+    }
+    .item p {
+        font-size: 18px;
+    }
+}

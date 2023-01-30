@@ -41,28 +41,28 @@ const MobileMenu = ({ active, setActiveMenu }) => {
               </Link>
             </li>
             <li className={style.menu_item}>
-              <Link to="/" onClick={() => setActiveMenu(false)}>
+              <Link to="/catalog" onClick={() => setActiveMenu(false)}>
                 Каталог услуг
               </Link>
             </li>
             <li className={style.menu_item}>
-              <Link to="/" onClick={() => setActiveMenu(false)}>
+              <Link to="/price" onClick={() => setActiveMenu(false)}>
                 Прайс
               </Link>
             </li>
             <li className={style.menu_item}>
-              <Link to="/" onClick={() => setActiveMenu(false)}>
-                Оплата
+              <Link to="/contacts" onClick={() => setActiveMenu(false)}>
+                Контакты
               </Link>
             </li>
           </ul>
           <ul className={style.menu_items}>
-          <a href="tel:+79140464566" onClick={() => setActiveMenu(false)}>
+          <a href="tel:+79002433790" onClick={() => setActiveMenu(false)}>
               <li className={style.menu_item}>
                 <span className={style.icon}>
                   <BsPhone />
                 </span>{' '}
-                +7(999) 999-99-99
+                +7(900) 243-37-90
               </li>
             </a>
             <Link to="/" onClick={() => setActiveMenu(false)}>

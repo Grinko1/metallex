@@ -13,7 +13,10 @@ const Header = () => {
   return (
     <div className={style.header}>
       <div className={style.logoBlock}>
-        <h1 className={style.logo}>METALLEX</h1>
+        <Link to='/'>
+           <h1 className={style.logo}>METALLEX</h1>
+        </Link>
+       
       </div>
       <div className={style.contacts}>
         <div className={style.contact}>
@@ -24,12 +27,12 @@ const Header = () => {
             Краснодарский край,
             <br /> республика Адыгея
           </p>
-          <a href="tel:+79140464566">
+          <a href="tel:+79002433790">
           <p className={style.contactItem}>
             <span className={style.icon}>
               <BsPhone />
             </span>
-            +7(999) 999-99-99
+            +7(900) 243-37-90
           </p>
           </a>
         </div>

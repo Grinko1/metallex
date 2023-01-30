@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import style from './Nav.module.css';
 
 const Nav = () => {
@@ -5,10 +6,11 @@ const Nav = () => {
         <div className={style.nav}>
             <div className={style.container}>
                 <ul className={style.navItems}>
-                    <li>Главная</li>
-                    <li>Каталог услуг</li>
-                    <li>Прайс</li>
-                    <li>Оплата</li>
+                    
+                    <li><Link to='/'>Главная</Link></li>
+                    <li><Link to='/catalog'>Каталог услуг</Link> </li>
+                    <li><Link to='/price'>Прайс</Link> </li>
+                    <li><Link to='/contacts'>Контакты</Link> </li>
                 </ul>
             </div>
         </div>

@@ -16,12 +16,12 @@ const Footer = () => {
 
       <div className={style.left}>
         <div className={style.contact}>
-          <p className={style.contactItem}>
+          <a className={style.contactItem} href="tel:+79002433790">
             <span className={cn(style.icon, style.phone)}>
               <BsPhone />
             </span>
-            +7(999) 999-99-99
-          </p>
+            +7(900) 243-37-90
+          </a>
           <p className={style.contactItem}>
             <span className={cn(style.icon, style.map)}>
               <BiMap />
@@ -48,7 +48,7 @@ const Footer = () => {
         <ul className={style.menuLinks}>
             <Link to='/'><li>Главная</li></Link>
           
-          <Link to='/'><li>Каталог услуг</li></Link>
+          <Link to='/catalog'><li>Каталог услуг</li></Link>
           
           <Link to='/'><li>Прайс</li></Link>
           
