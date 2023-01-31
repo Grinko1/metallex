@@ -27,7 +27,7 @@ const Price = () => {
                     <li className={style.item}>Пандусы - по договоренности</li>
                     
                 </ul>
-                <img className={style.exampleImg} src="/img/9.jpeg" alt=""/>
+                <img className={style.exampleImg} src="/img/9.jpeg" alt="Любые сварочные работы Краснодарский край и Адыгея"/>
                 </div>
               
            

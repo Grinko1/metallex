@@ -10,21 +10,17 @@
     top: 0; left: 0;
     height: 80vh;
     width: 100vw;
-    -webkit-backdrop-filter: blur(2px);
+    /* -webkit-backdrop-filter: blur(2px); */
 
 
 }
-
-/* .banner img::-webkit-scrollbar{width: 3px;height: 5px; }
-.banner img::-webkit-scrollbar-track-piece{background-color: orange;}
-.banner img::-webkit-scrollbar-thumb:vertical{height: 5px;background-color: white; border-radius: 4px;} */
 .banner img{
     height: 80vh;
     width: 100vw;
     object-fit: cover;
     position: absolute;
     filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
+    /* -webkit-backdrop-filter: blur(2px); */
 }
 .headBlock{
     padding-top: 50px;

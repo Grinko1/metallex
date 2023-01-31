@@ -28,13 +28,12 @@ const Slider = () => {
   };
   return (
       <div className={style.sliderSection}>
-          {/* <img className={style.bg} src="/img/banner.jpeg" alt=""/> */}
     <div className={style.slider}>
       <div className={style.container}>
         {slides.map((item, index) => {
           return (
             <div key={item.id} className={cn(style.slide, {[style.activeAnim] : slideIndex === index + 1})}>
-              <img src={item.url} />
+              <img src={item.url} alt={item.alt} />
             </div>
           );
         })}

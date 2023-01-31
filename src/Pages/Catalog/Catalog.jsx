@@ -22,38 +22,38 @@ const Catalog = () => {
       </ul>
       <div className={style.weldings}>
         <div className={style.welding}>
-          <img className={style.weldingImg} src="/img/1.jpeg" alt="" />
+          <img className={style.weldingImg} src="/img/1.jpeg" alt="Сварка стали Краснодарский край и Адыгея" />
           <p className={style.weldingName}>Сварка стали</p>
         </div>
         
       
         <div className={style.welding}>
-          <img className={style.weldingImg} src="/img/3.jpeg" alt="" />
+          <img className={style.weldingImg} src="/img/3.jpeg" alt="Мебель Лофт Краснодарский край и Адыгея" />
           <p className={style.weldingName}>Мебель Лофт</p>
         </div>
         <div className={style.welding}>
-          <img className={style.weldingImg} src="/img/4.jpeg" alt="" />
+          <img className={style.weldingImg} src="/img/4.jpeg" alt="Сварные навесы Краснодарский край и Адыгея" />
           <p className={style.weldingName}>Сварные навесы</p>
         </div>
 
         <div className={style.welding}>
-          <img className={style.weldingImg} src="/img/5.webp" alt="" />
+          <img className={style.weldingImg} src="/img/5.webp" alt="Сварные козырьки Краснодарский край и Адыгея" />
           <p className={style.weldingName}>Сварные козырьки</p>
         </div>
         <div className={style.welding}>
-          <img className={style.weldingImg} src="/img/7.jpeg" alt="" />
+          <img className={style.weldingImg} src="/img/7.jpeg" alt="Ремонт и монтаж грузовых бортов Краснодарский край и Адыгея" />
           <p className={style.weldingName}>Ремонт и монтаж бортов</p>
         </div>
         <div className={style.welding}>
-          <img className={cn(style.weldingImg, style.contain)} src="/img/8.JPG" alt="" />
+          <img className={cn(style.weldingImg, style.contain)} src="/img/8.JPG" alt="Кузовной ремонт Краснодарский край и Адыгея" />
           <p className={style.weldingName}>Кузовной ремонт</p>
         </div>
         <div className={style.welding}>
-          <img className={style.weldingImg} src="/img/2.jpeg" alt="" />
+          <img className={style.weldingImg} src="/img/2.jpeg" alt="Сварка труб Краснодарский край и Адыгея" />
           <p className={style.weldingName}>Сварка труб</p>
         </div>
         <div className={style.welding}>
-          <img className={style.weldingImg} src="/img/6.jpeg" alt="" />
+          <img className={style.weldingImg} src="/img/6.jpeg" alt="Любые сварочные работы Краснодарский край и Адыгея" />
           <p className={style.weldingName}>Любые сварочные работы</p>
         </div>
       </div>
