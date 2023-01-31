@@ -1,8 +1,8 @@
 import style from './Contacts.module.css';
 import cn from 'classnames';
+import Nav from '../../Component/Nav/Nav'
 import { BsPhone, BsWhatsapp } from 'react-icons/bs';
 import { SlSocialVkontakte } from 'react-icons/sl';
-import { AiOutlineExclamationCircle } from 'react-icons/ai';
 import { useEffect, useState } from 'react';
 
 const Contacts = () => {
@@ -26,7 +26,7 @@ const Contacts = () => {
           setIsErrorMsg(false)
       }
   }, [name, phone, email])
-  const checkInvalid = () => {};
+
   const sendMsg = (e) => {
     e.preventDefault();
     setName('')
@@ -37,10 +37,12 @@ const Contacts = () => {
   };
 
   return (
+      <>
+      <Nav/>
     <div className={style.payment}>
       <h1 className={style.header}>Контакты</h1>
 
-      <h2 className={style.subHeader}>Вы можете связаться с нами любыми удобным способом:</h2>
+      <h2 className={style.subHeader}>Вы можете связаться с нами любым удобным способом:</h2>
       <div className={style.info}>
         <a href="tel:+79002433790" className={cn(style.tel, style.item)}>
           <p>Позвонить</p>
@@ -53,6 +55,7 @@ const Contacts = () => {
         <a
           href="https://api.whatsapp.com/send?phone=9140464566"
           target="_blank"
+          rel="noreferrer"
           className={style.item}>
           <p>Написать в Whatsapp</p>
           <span className={cn(style.icon, style.wa)}>
@@ -60,7 +63,7 @@ const Contacts = () => {
           </span>
         </a>
 
-        <a href="https://vk.com/id103625609" target="_blank" className={style.item}>
+        <a href="https://vk.com/id103625609" target="_blank" className={style.item } rel="noreferrer">
           <p>Написать в VK </p>
           <span className={cn(style.icon, style.vk)}>
             <SlSocialVkontakte />
@@ -117,6 +120,7 @@ const Contacts = () => {
         </form>
       </div>
     </div>
+    </>
   );
 };
 

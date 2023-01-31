@@ -38,13 +38,13 @@ const Header = () => {
         </div>
 
         <div className={style.sosial}>
-         <a href="https://api.whatsapp.com/send?phone=9140464566" target='_blank'>
+         <a href="https://api.whatsapp.com/send?phone=9140464566" target='_blank' rel="noreferrer">
             <p className={style.icon}>
               <BsWhatsapp />
             </p>
           </a>
          
-          <a href="https://vk.com/id103625609" target='_blank'>
+          <a href="https://vk.com/id103625609" target='_blank' rel="noreferrer">
           <p className={style.icon}>
             <SlSocialVkontakte />
           </p>

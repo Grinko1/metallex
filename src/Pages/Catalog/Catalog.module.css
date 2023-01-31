@@ -59,6 +59,9 @@ margin: auto;
     object-fit: cover;
 
 }
+.contain{
+    object-fit:fill;
+}
 .weldingName{
 text-align: center;
 margin-top: 10px;

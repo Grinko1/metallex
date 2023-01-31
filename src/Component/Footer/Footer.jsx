@@ -32,12 +32,12 @@ const Footer = () => {
         </div>
 
         <div className={style.contact}>
-          <a href="https://api.whatsapp.com/send?phone=9140464566" target='_blank'>
+          <a href="https://api.whatsapp.com/send?phone=9140464566" target='_blank' rel="noreferrer">
             <p className={cn(style.icon, style.wa)}>
               <BsWhatsapp />
             </p>
           </a>
-          <a href="https://vk.com/id103625609" target='_blank'>
+          <a href="https://vk.com/id103625609" target='_blank' rel="noreferrer">
           <p className={cn(style.icon, style.vk)}>
             <SlSocialVkontakte />
           </p>
