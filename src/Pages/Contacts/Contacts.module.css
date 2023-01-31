@@ -1,5 +1,4 @@
 .payment{
-    min-height: 60vh;
     color: white;
     margin: 50px;
 }
@@ -41,9 +40,6 @@
 }
 .vk{
     color: rgb(39, 111, 218);
-}
-.formBlock{
-
 }
 .form{
     display: flex;

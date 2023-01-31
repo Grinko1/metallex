@@ -1,5 +1,6 @@
 .banner{
-    height: 80vh;
+    /* height: 80vh; */
+    height: 100%;
     position: relative;
 }
 .banner::before{
@@ -8,20 +9,15 @@
     filter: blur(2px);
     position: absolute;
     top: 0; left: 0;
-    height: 80vh;
+    /* height: 80vh; */
+    height: 100%;
     width: 100vw;
+    margin-bottom: 20%;
     /* -webkit-backdrop-filter: blur(2px); */
 
 
 }
-.banner img{
-    height: 80vh;
-    width: 100vw;
-    object-fit: cover;
-    position: absolute;
-    filter: blur(2px);
-    /* -webkit-backdrop-filter: blur(2px); */
-}
+
 .headBlock{
     padding-top: 50px;
 }
@@ -32,14 +28,14 @@
 }
 @media (max-width:1100px){
     .banner{
-        height: 100vh;
+        /* height: 100vh; */
+        height: 100%;
         
     }
-    .banner img{
-        height: 100vh;
-    }
+
     .banner::before{
-        height: 100vh;
+        /* height: 100vh; */
+        height: 100%;
     }
 }
 @media (max-width:900px){
@@ -47,11 +43,9 @@
         height: auto;
         
     }
-    .banner img{
-        height: 100%;
-    }
     .banner::before{
-        height: 100vh;
+        /* height: 100vh; */
+        height: 100%;
     }
 }
 @media (max-width:620px){
