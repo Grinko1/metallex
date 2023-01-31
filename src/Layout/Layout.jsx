@@ -1,17 +1,23 @@
-import React from 'react';
-import { Outlet } from 'react-router';
+import React, { memo} from 'react';
+import { Outlet, useLocation } from 'react-router';
 import Footer from '../Component/Footer/Footer';
 import Header from '../Component/Header/Header';
 
-const Layout = () => {
+
+const Layout = memo( () => {
+
     return (
         <>
         <Header/>
-        <Outlet/>
+        <div>
+             <Outlet/> 
+
+        </div>
+      
         <Footer/>
             
         </>
     );
-};
+});
 
 export default Layout;

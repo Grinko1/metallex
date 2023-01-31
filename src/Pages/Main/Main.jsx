@@ -1,5 +1,6 @@
 import { memo } from 'react';
 import Benefits from '../../Component/Benefits/Benefits';
+import FloatingBtn from '../../Component/FloatingBtn/FloatingBtn';
 import Nav from '../../Component/Nav/Nav';
 import OrangeBlock from '../../Component/OrangeBlock/OrangeBlock';
 import Slider from '../../Component/Slider/Slider';
@@ -21,7 +22,7 @@ import style from './Main.module.css';
       </div>
       <OrangeBlock/>
       <Slider/>
-
+      <FloatingBtn/>
     </>
   );
 });

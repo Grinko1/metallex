@@ -6,7 +6,7 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 width: 80%;
-margin:  auto;
+margin: 0 auto 50px auto;
 padding-top: 100px;
 }
 .benefitItem{

@@ -2,6 +2,7 @@ import style from './Catalog.module.css';
 import {RxDoubleArrowDown} from 'react-icons/rx'
 import cn  from 'classnames'
 import Nav from '../../Component/Nav/Nav';
+import FloatingBtn from '../../Component/FloatingBtn/FloatingBtn';
 
 const Catalog = () => {
   return (
@@ -58,6 +59,7 @@ const Catalog = () => {
         </div>
       </div>
     </div>
+    <FloatingBtn/>
     </>
   );
 };
