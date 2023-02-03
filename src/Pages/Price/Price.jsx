@@ -14,7 +14,7 @@ const Price = () => {
             <div className={style.container}>
                 <div className={style.main}>
                       <ul className={style.items}>
-                    <li className={style.item}>Арочный навес <br/> из поликарбоната - <span>50 т.р без учета материала</span> </li>
+                    {/* <li className={style.item}>Арочный навес <br/> из поликарбоната - <span>50 т.р без учета материала</span> </li> */}
                     <li className={style.item}>Навесы - от 1500 т за м&sup2; </li>
                     <li className={style.item}>Заборы - от 900 рублей за погонный метр</li>
                     <li className={style.item}>Перила - от 1100 за погонный метр</li>
