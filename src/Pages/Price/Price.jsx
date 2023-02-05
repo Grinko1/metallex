@@ -42,7 +42,7 @@ const Price = () => {
         </a>
 
         <a
-          href="https://api.whatsapp.com/send?phone=9140464566"
+          href="https://api.whatsapp.com/send?phone=9002433790"
           target="_blank"
           rel="noreferrer"
           className={styleC.item}>
@@ -52,7 +52,7 @@ const Price = () => {
           </span>
         </a>
 
-        <a href="https://vk.com/id103625609" target="_blank" className={styleC.item } rel="noreferrer">
+        <a href="https://vk.com/id781728381" target="_blank" className={styleC.item } rel="noreferrer">
           <p>Написать в VK </p>
           <span className={cn(styleC.icon, styleC.vk)}>
             <SlSocialVkontakte />

@@ -53,7 +53,7 @@ const Contacts = () => {
         </a>
 
         <a
-          href="https://api.whatsapp.com/send?phone=9140464566"
+          href="https://api.whatsapp.com/send?phone=9002433790"
           target="_blank"
           rel="noreferrer"
           className={style.item}>
@@ -63,7 +63,7 @@ const Contacts = () => {
           </span>
         </a>
 
-        <a href="https://vk.com/id103625609" target="_blank" className={style.item } rel="noreferrer">
+        <a href="https://vk.com/id781728381" target="_blank" className={style.item } rel="noreferrer">
           <p>Написать в VK </p>
           <span className={cn(style.icon, style.vk)}>
             <SlSocialVkontakte />

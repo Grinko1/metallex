@@ -24,10 +24,10 @@ const MobileMenu = ({ active, setActiveMenu }) => {
       
        
               <li className={style.sosial}>
-              <a href="https://api.whatsapp.com/send?phone=9140464566" target='_blank' onClick={() => setActiveMenu(false)} rel="noreferrer">
+              <a href="https://api.whatsapp.com/send?phone=9002433790" target='_blank' onClick={() => setActiveMenu(false)} rel="noreferrer">
                 <BsWhatsapp />
                 </a>
-                <a href="https://vk.com/id103625609" target='_blank'onClick={() => setActiveMenu(false)} rel="noreferrer">
+                <a href="https://vk.com/id781728381" target='_blank'onClick={() => setActiveMenu(false)} rel="noreferrer">
                 <SlSocialVkontakte />
                 </a>
               </li>
